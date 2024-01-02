@@ -28,8 +28,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v2
+        with:
+          ruby-version: '2.x'  # Adjust based on your project's Ruby version
+      - name: Install Bundler
+        run: gem install bundler
       - name: Install Dependencies
         run: bundle install
       - name: Lint with ESLint
