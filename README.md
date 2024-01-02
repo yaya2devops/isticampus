@@ -1,4 +1,4 @@
-# ISTIC Campus
+# [ISTIC Campus](https://campus.computer-engineering.tech)
 
 This is designed to assist university students in navigating their campus, focusing on the key areas that are most relevant to them upon entry.
 
