@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Sample workflow for building, linting, and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
@@ -22,14 +22,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  # Build and lint job
+  build-and-lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Install Dependencies
+        run: bundle install
+      - name: Lint with ESLint
+        run: yarn lint  # Adjust this based on your actual linting command
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -44,7 +48,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-and-lint
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
