@@ -4,7 +4,7 @@ This is designed to assist university students in navigating their campus, focus
 
 ![Welcome To ISTIC Univeristy](https://isticampus.s3.eu-west-3.amazonaws.com/welcome-2-istic.jpg)
 
-### Open Source
+### We ❤️ Open Source
 
 This project is released under the [MIT](http://opensource.org/licenses/MIT) license. <br>You can use the code to showcase your own university's facilities to your community.
 
