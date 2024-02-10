@@ -16,4 +16,12 @@
 
 ### She [volunteered that content just here](appreciate-this.jpg) 
 
+The message is written in a mix of french and our tunisian arabic, you can find below a translation.
+
+
+Amal wrote on Instagram reply to Yahya's story posting about a new slide for campus navigator:
+> What you've done to ISTIC, even those who are working there haven't done. <br>Anyway, I do have pictures for the library and inside. <br>When we had the ISTIC annual magazine, if you want me to send you.
+
+
+
 ### So I share it with you and improve your college experience.
