@@ -14,7 +14,7 @@
 
 ### The [fourth slide](https://isticampus.s3.eu-west-3.amazonaws.com/navigator/3-get-in-library.png) is her creation.
 
-### She [volunteered that content just here](appreciate-this.jpg) 
+### She [volunteered that content just here](https://raw.githubusercontent.com/yaya2devops/isticampus/main/assets/appreciate-this.jpg) 
 
 The message is written in a mix of french and our tunisian arabic, you can find below a translation.
 
