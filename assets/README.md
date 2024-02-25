@@ -1,1 +1,1 @@
-> Learn more [from here](ack-classmate.pdf) in PDF or just [plain text.](ack-classmate.md)
+> Learn more [from here](ack-classmate-noted.pdf) in PDF or just [plain text.](ack-classmate.md)
